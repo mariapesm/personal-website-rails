@@ -26,9 +26,8 @@
   "homepage": "http://rubyonrails.org/",
   "devDependencies": {
     "coffeelint": "^2.1.0",
-    "eslint": "^2.13.1"
-  },
-  "engines": {
+    "eslint": "^2.13.1",
     "node": "8.x"
   },
+ 
 }
