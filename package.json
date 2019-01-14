@@ -5,7 +5,7 @@
   "main": "lib/assets/compiled/rails-ujs.js",
   "scripts": {
     "start": "node server.js",
-    
+  },
   "files": [
     "lib/assets/compiled/*.js"
   ],
@@ -43,4 +43,4 @@
 }
  "engines": {
     "node": "^8.0.0"
-  },
+  }
