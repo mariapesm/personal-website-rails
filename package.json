@@ -3,9 +3,14 @@
   "version": "6.0.0-alpha",
   "description": "Ruby on Rails unobtrusive scripting adapter",
   "main": "lib/assets/compiled/rails-ujs.js",
+  "scripts": {
+    "start": "node server.js",
   "files": [
     "lib/assets/compiled/*.js"
   ],
+    "engines": {
+    "node": "8.x"
+  },
   "directories": {
     "test": "test"
   },
@@ -27,7 +32,7 @@
   "devDependencies": {
     "coffeelint": "^2.1.0",
     "eslint": "^2.13.1",
-    "node": "8.x"
+   
   },
  
 }
