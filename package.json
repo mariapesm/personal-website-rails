@@ -5,6 +5,9 @@
   "main": "lib/assets/compiled/rails-ujs.js",
   "scripts": {
     "start": "node server.js",
+     "engines": {
+    "node": "8.x"
+  },
   "files": [
     "lib/assets/compiled/*.js"
   ],
@@ -28,9 +31,7 @@
   },
   "homepage": "http://rubyonrails.org/",
   
-      "engines": {
-    "node": "8.x"
-  },
+     
     "devDependencies": {
     "coffeelint": "^2.1.0",
     "eslint": "^2.13.1",
