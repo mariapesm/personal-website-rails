@@ -5,9 +5,7 @@
   "main": "lib/assets/compiled/rails-ujs.js",
   "scripts": {
     "start": "node server.js",
-     "engines": {
-    "node": "8.x"
-  },
+    
   "files": [
     "lib/assets/compiled/*.js"
   ],
@@ -37,5 +35,12 @@
     "eslint": "^2.13.1",
    
   },
+     "keywords": [
+    "freecodecamp",
+    "nodejs"
+  ],
  
 }
+ "engines": {
+    "node": "^8.0.0"
+  },
