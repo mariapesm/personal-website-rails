@@ -8,9 +8,7 @@
   "files": [
     "lib/assets/compiled/*.js"
   ],
-    "engines": {
-    "node": "8.x"
-  },
+  
   "directories": {
     "test": "test"
   },
@@ -29,7 +27,11 @@
     "url": "https://github.com/rails/rails/issues"
   },
   "homepage": "http://rubyonrails.org/",
-  "devDependencies": {
+  
+      "engines": {
+    "node": "8.x"
+  },
+    "devDependencies": {
     "coffeelint": "^2.1.0",
     "eslint": "^2.13.1",
    
